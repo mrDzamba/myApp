@@ -10,5 +10,7 @@ int main(void)
 	func2("Let's start!");
 	func2(APP_VER);
 	
+	interface_init("Some new interface!");
+	
 	return 0;
 }
