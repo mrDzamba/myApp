@@ -2,7 +2,7 @@
 #define INTERFACE_H
 
 
-extern int interface_init(void* int);
+extern int interface_init(void* in);
 
 
 #endif

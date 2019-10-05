@@ -1,7 +1,9 @@
-
+#include <stdio.h>
 #include "interface.h"
 
-int interface_init(void* int)
+int interface_init(void* in)
 {
-	printf ("\n new interface detected %s!", (char*) int);
+	printf ("\n new interface detected %s!", (char*) in);
+	
+	return 0;
 }
