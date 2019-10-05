@@ -9,4 +9,11 @@ void func1(void)
 void func2(char* data)
 {
 	printf("\nfunc2: %s", data);
+	FILE* f = 0;
+	
+	f = fopen("newFile.txt", "a");
+	
+	fprintf(f, "\nNew data in file");
+	
+	fclose(f);
 }
