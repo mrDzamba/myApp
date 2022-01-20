@@ -10,6 +10,8 @@ int main(void)
 	func2(APP_VER);
 	
 	interface_init("Some new interface!");
+
+	printf("Just printing something.");
 	
 	return 0;
 }
