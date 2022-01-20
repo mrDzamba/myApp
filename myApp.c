@@ -12,6 +12,8 @@ int main(void)
 	interface_init("Some new interface!");
 
 	printf("Just printing something.");
+
+	printf("Adding first feature to this code");
 	
 	return 0;
 }
