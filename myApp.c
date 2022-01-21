@@ -1,5 +1,3 @@
-
-
 #include "driver.h"
 #include "interface.h"
 
@@ -14,6 +12,8 @@ int main(void)
 	printf("Just printing something.");
 
 	printf("Adding first feature to this code");
+
+	printf("Adding feature2 to this code");
 	
 	return 0;
 }
